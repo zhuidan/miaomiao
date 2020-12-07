@@ -14,11 +14,13 @@ npm run serve
 ```
 npm run build
 ```
+
+### 总结  
+```
 props:{title:{type:String,default:"影院"}}  父组件  title="aa"
 {path:"/*",redirect:'/movie'} 路由重定向,无论你访问的是/xxx都能自动跳动到movie页面
 使用keep-alive  缓存 router-view
-### 从开始到结束  使用git
-```
+//git
 git remote  显示远程仓库  没有
 提交到 Github添加远程版本库
 git remote add origin 地址   
