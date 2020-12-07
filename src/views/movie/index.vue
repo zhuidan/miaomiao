@@ -43,7 +43,16 @@ export default {
     },
     methods: {
 
-    }
+    },
+    mounted(){
+        // this.axios.get('/api/citylist').then(res=>{
+        //     console.log(res)
+        //     if(res.data.msg === "ok"){
+        //         var data = rea.data.data.cities
+        //     }
+        // })
+    }
+    
 };
 </script>
 

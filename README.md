@@ -1,5 +1,5 @@
 # miaomiao
-
+# 因接口不能访问只写了简单的tab跳转
 ## Project setup
 ```
 npm install
@@ -15,5 +15,4 @@ npm run serve
 npm run build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+{path:"/*",redirect:'/movie'} 路由重定向,无论你访问的是/xxx都能自动跳动到movie页面
